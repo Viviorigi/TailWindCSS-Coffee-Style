@@ -1,0 +1,17 @@
+{
+  "name": "tailwindcss-coffee-styles",
+  "version": "1.0.0",
+  "description": "Duong Coffee Styles",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwindcss -i src/input.css -o public/output.css --watch",
+    "start:dev": "live-server public"
+  },
+  "keywords": [],
+  "author": "Duong",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "tailwindcss": "^3.4.1"
+  }
+}
